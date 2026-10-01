@@ -1,0 +1,16 @@
+body{
+    background-color: pink;
+}
+
+#template{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+h3{
+    background-color: rgb(252, 83, 111);
+}
+.inside_card{
+    background-color: rgb(252, 233, 236);
+}
+
