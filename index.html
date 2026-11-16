@@ -11,12 +11,18 @@
 <body>
     <script src="script.js" defer></script>
     <image id="top-left" src="images/picmix.com_1629200.gif"></image>
-    <div id="template" class="card">
-        <h3>Template Card</h3>
-        <span class="inside_card">
-            <input type="textarea">
-            <button id="clone-card">Wanna post again?</button>
-        </span>
+    <div id="form_div" class="card">
+        <h3 id = "form_head">Template Card</h3>
+        <form id = "post_form">
+            <label for = "post_title">Title Your Post</label>
+            <input type = "text" id = "post_title">
+
+            <label for = "post_content">Enter Content: </label>
+            <textarea id = "post_content" placeholder="Enter content here..."></textarea>
+
+            <button type="submit" id="submit_button">Submit</button>
+        </form>
+      
 
     </div>
 
