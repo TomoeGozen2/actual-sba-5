@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
     <script src="script.js" defer></script>
     <image id="top-left" src="images/picmix.com_1629200.gif"></image>
     <div id="form_div" class="card">
@@ -16,12 +17,18 @@
         <form id = "post_form">
             <label for = "post_title">Title Your Post</label>
             <input type = "text" id = "post_title">
+            <span class = "error" id="title_error"></span>
 
             <label for = "post_content">Enter Content: </label>
+            <span class = "error" id="content_error"></span>
             <textarea id = "post_content" placeholder="Enter content here..."></textarea>
 
             <button type="submit" id="submit_button">Submit</button>
         </form>
+        <section id = "all_posts">
+            <h2>All Posts</h2>
+            <div id = "posts_list"></div>
+        </section>
       
 
     </div>
