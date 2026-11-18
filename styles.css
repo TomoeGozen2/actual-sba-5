@@ -19,4 +19,6 @@ h3{
 .inside_card{
     background-color: rgb(252, 233, 236);
 }
-
+.error{
+    color:red
+}
