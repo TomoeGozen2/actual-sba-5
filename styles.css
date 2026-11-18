@@ -1,6 +1,12 @@
 body{
     background-color: pink;
 }
+#post_form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18%;
+}
 
 #template{
     display: flex;
